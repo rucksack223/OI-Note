@@ -1,0 +1,43 @@
+site_name: OI-Note
+
+repo_url: https://github.com/jreeys-man/OI-Note
+repo_name: jreeys-man/OI-Note
+
+nav:
+  - Getting Started: index.md
+  - 其他: 
+    - 时间和空间复杂度: other/time-and-space-complexity.md
+theme:
+  name: material
+  language: zh
+  palette:
+    scheme: default
+    primary: white
+    accent: indigo
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - content.footnote.tooltips
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+
+extra_javascript:
+  - javascripts/katex.js
+  - https://unpkg.com/katex@0/dist/katex.min.js
+  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
+
+extra_css:
+  - https://unpkg.com/katex@0/dist/katex.min.css
