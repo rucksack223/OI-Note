@@ -6,6 +6,7 @@ repo_name: jreeys-man/OI-Note
 nav:
   - Getting Started: index.md
   - 其他: 
+    - 表达式计算: other/expression.md
     - 时间和空间复杂度: other/time-and-space-complexity.md
 
 theme:
