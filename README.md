@@ -4,15 +4,11 @@
 
 将本仓库 clone 到本地，下载 MkDocs 并启动。
 ```bash
-pip install mkdocs # 可以使用虚拟环境
+pip install mkdocs
+pip install mkdocs-material
 git clone https://github.com/jreeys-man/OI-Note.git
 cd OI-Note
 mkdocs serve
 ```
 
-## 贡献
-### 方法一
-将 Markdown 文件发送给 Crfandx。由 Crfandx 添加。
-
-### 方法二
-fork 本仓库，在自己的仓库进行修改后，提交 PR（Pull Request）。
+然后就可以在 [127.0.0.1:8000](http://127.0.0.1:8000) 看见部署的 **OI-Note** 了。
