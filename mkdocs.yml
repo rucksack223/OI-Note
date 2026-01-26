@@ -5,9 +5,14 @@ repo_name: jreeys-man/OI-Note
 
 nav:
   - Getting Started: index.md
-  - 其他: 
+  - 杂项: 
+    - 杂项部分简介: other/index.md
     - 表达式计算: other/expression.md
     - 时间和空间复杂度: other/time-and-space-complexity.md
+  - 题目:
+    - 题目部分简介: problem/index.md
+    - P1000 回文日期: problem/P1000.md
+    - P1001 最大公约数与最小公倍数问题: problem/P1001.md
 
 theme:
   name: material

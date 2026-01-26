@@ -6,19 +6,23 @@
 
 **OI-Note** 是相较于 [OI Wiki](https://oi-wiki.org) 更加亲近的站点，它不高深，甚至有时不严谨，但它一定能让你理解透彻知识。我们欢迎你来贡献页面，让 **OI-Note** 更加完善。
 
+实际上，你可以将 **OI-Note** 看作 OI Wiki 的补充页面。
+
 ## 如何贡献
 
 请确保在提交贡献前，修改的页面能正常在自行部署的 **OI-Note** 中正常工作。
 
 ### 方法一
 
+提建议，即通过 Issue。提交 Issue 时请保证你提出的问题还没有人提出过。
+
+### 方法二
+
 提交 commit，这适用于你只想要修改单个页面的情况。
 
 在 Github 仓库中，打开你想要编辑的文件，点击笔图标（Edit this file），修改文件。修改后，点击绿色的 Commit changes... 按钮，在弹出的界面中编辑 Extended description，需详细说明修改的内容。最后点击绿色的 Commit changes 按钮，提交 commit。
 
-### 方法二
-
-提交 Pull request，这适用于添加新页面和大范围修改的情况。
+或者提交 Pull request，这适用于添加新页面和大范围修改的情况。
 
 首先，fork 仓库，在 fork 后的仓库中提交你修改的内容，然后创建 Pull request，等待 review。
 
